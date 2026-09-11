@@ -204,3 +204,35 @@ ul {
   font-size: 15px;
   color: var(--muted);
 }
+
+.sobre__conteudo {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre__texto {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  flex: 1 1 480px;
+}
+
+.sobre__subtitulo {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--purple);
+  line-height: 1.35;
+}
+
+.sobre__texto p {
+  color: var(--muted);
+}
+
+.sobre__imagem {
+  flex: 1 1 460px;
+  border-radius: 16px;
+  object-fit: cover;
+  height: 320px;
+}
